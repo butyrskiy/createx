@@ -52,9 +52,6 @@ function styles() {
     suffix: '.min'
   }))
   .pipe(autoprefixer({ overrideBrowserslist: ['last 5 version'] }))
-  .pipe(cleanCss({
-    level: 2
-  }))
   .pipe(sourcemaps.write('.')) // создание «main.min.css.map»
   .pipe(dest(paths.buildCss)) // сюда кладём скомпилированный css
   .pipe(browserSync.stream())
