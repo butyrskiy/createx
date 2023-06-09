@@ -1,20 +1,15 @@
-body {
-  font-family: "Roboto";
-  background-color: var(--color-gray);
-}
+.header {
+  padding: 23px 0;
 
-.info {
-  h1 {
-    font-size: 25px;
-    color: #60727d;
-    margin-left: 10px;
+  &__container {
+    @include flex-all-sb;
   }
 
-  a {
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-size: 17px;
-    color: #808080;
+  &__nav {
+    margin-left: -112px;
+  }
+
+  &--main {
+    background-color: var(--color-light);
   }
 }
