@@ -1,11 +1,16 @@
 /* Basic */
-@import "base/normalize";
-@import "vars";
-@import "mixins";
-@import "fonts";
-@import "settings";
+@import "./base/normalize";
+@import "./vars";
+@import "./mixins";
+@import "./fonts";
+@import "./settings";
 
-/* Components */
-@import "components/header";
-@import "components/header-contacts";
-@import "components/nav";
+/* Large components */
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about-section";
+
+/* Small components */
+@import "./components/nav";
+@import "./components/header-contacts";
+@import "./components/video-block";
