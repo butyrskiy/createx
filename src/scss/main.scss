@@ -1,5 +1,8 @@
+/* Vendor */
+@import "./vendor/normalize";
+@import "../../node_modules/swiper/swiper-bundle.min";
+
 /* Basic */
-@import "./base/normalize";
 @import "./vars";
 @import "./mixins";
 @import "./fonts";
@@ -11,9 +14,12 @@
 @import "./components/about-section";
 @import "./components/mission";
 @import "./components/services-section";
+@import "./components/portfolio-section";
 
 /* Small components */
 @import "./components/nav";
 @import "./components/header-contacts";
 @import "./components/video-block";
 @import "./components/form-field";
+@import "./components/slider-nav";
+@import "./components/learn-more";
